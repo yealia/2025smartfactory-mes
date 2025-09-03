@@ -1,3 +1,32 @@
+# ---- Java / Spring Boot ----
+*.class
+*.jar
+*.war
+*.ear
+
+# Spring Boot build
+target/
+build/
+
+# Gradle
+.gradle/
+!gradle-wrapper.jar
+gradle-app.setting
+.gradle/
+out/
+
+# IntelliJ IDEA
+*.iml
+.idea/
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# Logs
+logs/
+
 # Logs
 logs
 *.log
